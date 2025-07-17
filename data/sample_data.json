@@ -1,55 +1,78 @@
 {
-  "company": "Tech Solutions Inc",
-  "employees": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "position": "Senior Engineer",
-      "department": "Engineering",
-      "skills": ["Python", "JavaScript", "Docker"],
-      "hire_date": "2020-01-15",
-      "salary": 75000
+    "employees": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 28,
+            "department": "Engineering",
+            "salary": 75000,
+            "years_experience": 3,
+            "skills": ["Python", "JavaScript", "SQL"],
+            "performance_rating": 4.2
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "age": 32,
+            "department": "Marketing",
+            "salary": 68000,
+            "years_experience": 5,
+            "skills": ["Digital Marketing", "Analytics", "SEO"],
+            "performance_rating": 4.5
+        },
+        {
+            "id": 3,
+            "name": "Mike Johnson",
+            "age": 45,
+            "department": "Engineering",
+            "salary": 95000,
+            "years_experience": 12,
+            "skills": ["Java", "Spring", "Microservices", "AWS"],
+            "performance_rating": 4.8
+        },
+        {
+            "id": 4,
+            "name": "Sarah Wilson",
+            "age": 29,
+            "department": "Sales",
+            "salary": 62000,
+            "years_experience": 4,
+            "skills": ["CRM", "Lead Generation", "Customer Relations"],
+            "performance_rating": 4.1
+        },
+        {
+            "id": 5,
+            "name": "David Brown",
+            "age": 38,
+            "department": "Engineering",
+            "salary": 85000,
+            "years_experience": 8,
+            "skills": ["React", "Node.js", "MongoDB", "Docker"],
+            "performance_rating": 4.4
+        }
+    ],
+    "departments": {
+        "Engineering": {
+            "budget": 500000,
+            "head": "Mike Johnson",
+            "total_employees": 3
+        },
+        "Marketing": {
+            "budget": 250000,
+            "head": "Jane Smith",
+            "total_employees": 1
+        },
+        "Sales": {
+            "budget": 300000,
+            "head": "Sarah Wilson",
+            "total_employees": 1
+        }
     },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "position": "Tech Lead",
-      "department": "Engineering",
-      "skills": ["Java", "Kubernetes", "AWS"],
-      "hire_date": "2019-03-10",
-      "salary": 85000
-    },
-    {
-      "id": 3,
-      "name": "Bob Johnson",
-      "position": "Sales Manager",
-      "department": "Sales",
-      "skills": ["CRM", "Negotiation", "Analytics"],
-      "hire_date": "2018-07-20",
-      "salary": 65000
+    "company_info": {
+        "name": "TechCorp Solutions",
+        "founded": 2015,
+        "headquarters": "San Francisco, CA",
+        "total_employees": 5,
+        "revenue": 2500000
     }
-  ],
-  "departments": {
-    "Engineering": {
-      "head": "Jane Smith",
-      "budget": 500000,
-      "projects": ["Mobile App", "API Gateway", "Data Pipeline"]
-    },
-    "Sales": {
-      "head": "Bob Johnson",
-      "budget": 200000,
-      "projects": ["Q1 Campaign", "Customer Onboarding"]
-    },
-    "Marketing": {
-      "head": "Alice Brown",
-      "budget": 150000,
-      "projects": ["Brand Refresh", "Social Media"]
-    }
-  },
-  "metrics": {
-    "total_employees": 10,
-    "total_revenue": 2500000,
-    "average_salary": 74000,
-    "employee_satisfaction": 8.5
-  }
 }

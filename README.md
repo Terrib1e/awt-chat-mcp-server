@@ -4,13 +4,31 @@ This project demonstrates how to create function/tool calls that AI agents can u
 
 ## 🚀 Quick Start (Recommended)
 
+### Option 1: Web Interface (NEW!)
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the web interface
+python run_streamlit.py
+
+# Access in browser: http://localhost:8501
+```
+
+### Option 2: Command Line
 **👉 [See QUICK_START.md](QUICK_START.md) for immediate, working examples!**
 
 The core educational value of this project is **fully functional** and ready to use. Even though there's a compatibility issue with the MCP library, all the fundamental concepts and patterns are demonstrated with working examples.
 
 ## ✅ What's Working Right Now
 
-### 1. Interactive Examples
+### 1. Web Interface (Streamlit)
+- **Interactive Dashboard**: Point-and-click interface for all tools
+- **Real-time Results**: Instant feedback and execution history
+- **Visual Analytics**: Charts and graphs for tool usage
+- **Sample Data**: Pre-loaded files for testing data analysis
+
+### 2. Command Line Examples
 ```bash
 # Run the comprehensive client example
 python examples/client_example.py

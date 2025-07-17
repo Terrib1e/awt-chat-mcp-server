@@ -1,11 +1,11 @@
-name,age,city,salary,department
-John Doe,28,New York,75000,Engineering
-Jane Smith,32,San Francisco,85000,Engineering
-Bob Johnson,45,Chicago,65000,Sales
-Alice Brown,29,Boston,70000,Marketing
-Charlie Davis,35,Seattle,80000,Engineering
-Diana Wilson,31,Miami,72000,Marketing
-Eve Martinez,27,Austin,68000,Sales
-Frank Taylor,38,Denver,78000,Engineering
-Grace Lee,33,Portland,74000,Marketing
-Henry Clark,41,Phoenix,82000,Sales
+name,age,department,salary,years_experience
+John Doe,28,Engineering,75000,3
+Jane Smith,32,Marketing,68000,5
+Mike Johnson,45,Engineering,95000,12
+Sarah Wilson,29,Sales,62000,4
+David Brown,38,Engineering,85000,8
+Lisa Davis,26,Marketing,58000,2
+Tom Anderson,41,Sales,72000,10
+Emily Taylor,33,Engineering,88000,7
+Chris Martin,35,Marketing,65000,6
+Anna Garcia,27,Sales,60000,3
