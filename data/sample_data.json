@@ -1,0 +1,55 @@
+{
+  "company": "Tech Solutions Inc",
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Senior Engineer",
+      "department": "Engineering",
+      "skills": ["Python", "JavaScript", "Docker"],
+      "hire_date": "2020-01-15",
+      "salary": 75000
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "position": "Tech Lead",
+      "department": "Engineering",
+      "skills": ["Java", "Kubernetes", "AWS"],
+      "hire_date": "2019-03-10",
+      "salary": 85000
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "position": "Sales Manager",
+      "department": "Sales",
+      "skills": ["CRM", "Negotiation", "Analytics"],
+      "hire_date": "2018-07-20",
+      "salary": 65000
+    }
+  ],
+  "departments": {
+    "Engineering": {
+      "head": "Jane Smith",
+      "budget": 500000,
+      "projects": ["Mobile App", "API Gateway", "Data Pipeline"]
+    },
+    "Sales": {
+      "head": "Bob Johnson",
+      "budget": 200000,
+      "projects": ["Q1 Campaign", "Customer Onboarding"]
+    },
+    "Marketing": {
+      "head": "Alice Brown",
+      "budget": 150000,
+      "projects": ["Brand Refresh", "Social Media"]
+    }
+  },
+  "metrics": {
+    "total_employees": 10,
+    "total_revenue": 2500000,
+    "average_salary": 74000,
+    "employee_satisfaction": 8.5
+  }
+}
